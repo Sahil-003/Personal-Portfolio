@@ -1,116 +1,124 @@
-# 🚀 3D Developer Portfolio
+🚀 Sahil Sorout | Personal Portfolio
 
-A modern, animated 3D developer portfolio built with React, Three.js, TailwindCSS, and motion effects — designed to help you stand out and showcase your skills creatively.
+Welcome to my personal portfolio repository! This website showcases my technical skills, projects, and journey in Computer Science, Big Data, and AI.
 
-![3d Portfolio Screenshot GitHub](https://github.com/user-attachments/assets/9b0ed20e-074e-4f2a-81d8-20c9da751e9e)
+Built with modern web technologies, interactive 3D visuals, and smooth animations, this portfolio reflects my passion for technology, creative problem-solving, and building meaningful digital experiences.
 
----
+🌐 Live Website: hey.sahilcodes.com
 
-## 📚 Table of Contents
+⸻
 
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Assets](#-assets)
-- [Contact Me](#-contact-me)
-- [Suggestions or Feedback](#-suggestions-or-feedback)
-- [Like This Project?](#-like-this-project)
+✨ Features
 
----
+* 🌌 Interactive 3D Visuals — Immersive 3D elements and experiences.
+* 🎨 Modern UI/UX — A clean, engaging, and visually appealing interface.
+* ⚡ Smooth Animations — Dynamic transitions and interactive motion effects.
+* 📱 Responsive Design — Optimized for desktop, tablet, and mobile screens.
+* 👨‍💻 About Me — Learn about my background, interests, and technical journey.
+* 💼 Project Showcase — Explore my work and technical projects.
+* 📬 Contact Section — Connect with me professionally.
+* 🚀 Fast Development — Powered by Vite for a smooth development workflow.
 
-## ✨ Features
+🛠️ Tech Stack
 
-- 🔥 3D visuals powered by **React Three Fiber** and **Drei**
-- ⚡ Smooth transitions and scroll-based animations using **Framer Motion**
-- 🎨 Clean, responsive UI with **TailwindCSS**
-- 💌 Working contact form using **EmailJS**
-- 🧱 Beautiful UI enhancements with **Aceternity UI** and **Magic UI**
-- 🚀 Lightning-fast development with **Vite**
+Technology	Purpose
+React	Building interactive user interfaces
+Vite	Development server and build tooling
+Tailwind CSS	Responsive styling
+JavaScript	Application logic
+Three.js	3D graphics and rendering
+React Three Fiber	Integrating 3D scenes with React
+Drei	Helpers and utilities for 3D components
+Framer Motion	Animations and transitions
+EmailJS	Contact form email integration
 
----
+📂 Project Structure
 
-## 🛠 Tech Stack
-
-| Tech              | Description                           |
-|-------------------|---------------------------------------|
-| React             | Front-end JavaScript library          |
-| Vite              | Fast bundler and dev environment      |
-| TailwindCSS       | Utility-first CSS framework           |
-| React Three Fiber | 3D rendering with Three.js in React   |
-| Drei              | Helpers and abstractions for R3F      |
-| Framer Motion     | Animation library for React           |
-| EmailJS           | Form handling and email integration   |
-| Aceternity UI     | Custom UI components                  |
-| Magic UI          | Prebuilt UI elements and design extras|
-
----
-
-## 📁 Project Structure
-
-```bash
-├── public/
-│   ├── assets/             # Images, textures, models
-│   ├── models/             # 3D Astronaut model
-│   └── vite.svg
+Personal-Portfolio/
+├── public/             # Static assets, images, and 3D models
 ├── src/
-│   ├── components/         # Reusable components
-│   ├── constants/          # Reusable datas
-│   ├── sections/           # Portfolio sections (Hero, About, etc.)
-│   ├── App.jsx             # Main app file
-│   ├── index.css           # Tailwind css
-│   └── main.jsx            # Entry point
-├── tailwind.config.js
-└── vite.config.js
-```
+│   ├── components/     # Reusable UI components
+│   ├── constants/      # Shared data and configuration
+│   ├── sections/       # Portfolio sections
+│   ├── App.jsx         # Main application component
+│   ├── index.css       # Global styles
+│   └── main.jsx        # Application entry point
+├── index.html          # HTML entry point
+├── package.json        # Dependencies and scripts
+├── package-lock.json   # Dependency lockfile
+├── tailwind.config.js  # Tailwind CSS configuration
+└── vite.config.js      # Vite configuration
 
----
+⚙️ Getting Started
 
-## 🚀 Getting Started
+Follow these steps to run the project locally.
+
+Prerequisites
+
+* Node.js
+* npm
+* Git
+
 1. Clone the Repository
-```bash
-git clone https://github.com/Ali-Sanati/Portfolio.git
-cd Portfolio
-```
-2. Install Dependencies
-```bash
+
+git clone https://github.com/Sahil-003/Personal-Portfolio.git
+
+2. Navigate to the Project Directory
+
+cd Personal-Portfolio
+
+3. Install Dependencies
+
 npm install
-```
-3. Run the Development Server
-```bash
+
+4. Start the Development Server
+
 npm run dev
-```
-The app will be available at http://localhost:5173.
 
----
+Open the local URL shown in your terminal. By default, Vite usually serves the application at:
 
-## 🔗 Assets
-Assets used in the project can be found [here](https://github.com/user-attachments/files/19820923/public.zip)
+http://localhost:5173/
 
----
+5. Build for Production
 
-## 📬 Contact Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/ali.sanatidev/reels/) 
-[![Static Badge](https://img.shields.io/badge/Youtube-%23FF0033?style=flat&logo=youtube)](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ali-sanati/) 
+To create an optimized production build:
 
----
+npm run build
 
-## 💡 Suggestions or Feedback?
-Leave a comment on the [YouTube video](https://youtu.be/S9UQItTpwUQ) or open an issue here on GitHub.<br/>
-👉 What should I build next?
+The generated files will be available in the dist/ directory.
 
-- A beautiful Landing Page
+To preview the production build locally:
 
-- A complete E-commerce site
+npm run preview
 
-- A fun App Clone (YouTube, Netflix, etc.)
+🌐 Live Portfolio
 
-Or another interactive Portfolio
+Visit my portfolio to explore my work, skills, and projects.
 
-Let me know!
+🔗 Website: https://hey.sahilcodes.com/
 
----
+👨‍💻 About Me
 
-## ⭐ Like This Project?
-Star the repo and [subscribe](https://www.youtube.com/channel/UCZhtUWTtk3bGJiMPN9T4HWA??sub_confirmation=1) to the YouTube channel for more dev content!
+I’m Sahil Sorout, a Computer Science graduate currently pursuing a Master’s in Computer Science, specializing in Big Data and AI.
+
+My interests include AI engineering, software development, and building practical applications that combine technology with creative problem-solving.
+
+I’m continuously learning, experimenting with new technologies, and developing projects to strengthen my technical skills and turn ideas into working applications.
+
+🔗 Connect With Me
+
+* GitHub: Sahil-003
+* LinkedIn: Sahil Sorout
+* Portfolio: hey.sahilcodes.com
+
+💡 Feedback & Collaboration
+
+I’m always interested in learning from others, exploring new ideas, and collaborating on meaningful projects.
+
+If you have suggestions or feedback about my portfolio, feel free to connect with me.
+
+⸻
+
+Designed and developed by Sahil Sorout.
+
+Building, learning, and creating — one project at a time.
